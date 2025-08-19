@@ -1,0 +1,16 @@
+server:
+  port: 6666
+dubbo:
+  application:
+    logger: slf4j
+    name: ProducerApplication
+  registry:
+    address: nacos://${nacos.address:127.0.0.1}:8848
+    username: nacos
+    password: nacos
+    parameters:
+      namespace: public
+      group: DEFAULT_GROUP
+  protocol:
+    name: tri
+    port: 50051

@@ -1,0 +1,93 @@
+# 编译产物
+target/
+*.class
+
+# 日志文件
+*.log
+logs/
+
+# Maven
+maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.jar
+consumer/.mvn/wrapper/maven-wrapper.jar
+producer/.mvn/wrapper/maven-wrapper.jar
+
+# IDE 相关文件
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Eclipse ###
+.project
+.classpath
+.settings/
+.metadata/
+.buildpath
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+### VS Code ###
+.vscode/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# OS 相关文件
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Linux ###
+*~
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Spring Boot
+HELP.md
+
+# 包文件
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# JVM Crash logs
+hs_err_pid*
+
+# 环境配置文件
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Dubbo 相关
+*.pid
+
+# 测试覆盖率报告
+target/site/
+target/coverage-reports/

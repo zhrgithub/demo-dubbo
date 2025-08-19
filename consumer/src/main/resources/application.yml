@@ -1,0 +1,14 @@
+dubbo:
+  application:
+    logger: slf4j
+    name: DemoConsumerApplication
+  registry:
+    protocol: nacos
+    address: 127.0.0.1:8848
+    username: nacos
+    password: nacos
+  protocol:
+    name: tri
+    port: 50051
+server:
+  port: 8888
